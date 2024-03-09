@@ -1,0 +1,47 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+html{
+    --bgcolor: linear-gradient(180deg, #191053, #010101);
+    --textcolor:rgb(167, 179, 230);
+}
+.home{
+    min-height: 100vh;
+    background: linear-gradient(rgba(8, 4, 86, 1.0), rgba(1, 1, 1, 1.0));
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+header{
+    position: absolute;
+    color: var(--textcolor);
+    font-weight: 550px;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 23px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2.5rem 8rem;
+    z-index: 99;
+}
+header nav a{
+    margin-left: 6rem;
+    font-weight: 650px;
+    color: rgb(211, 214, 228);
+    text-decoration: none;
+    font-family: 'Poppins', 'sans-serif';
+    font-size: 27px;
+    transition: color 0.4s ease;
+}
+header nav .active, 
+header nav a:hover{
+    color: rgb(28, 78, 239);
+}
