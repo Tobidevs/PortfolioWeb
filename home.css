@@ -8,21 +8,12 @@ html{
     --bgcolor: linear-gradient(180deg, #191053, #010101);
     --textcolor:rgb(167, 179, 230);
 }
-.home{
-    min-height: 100vh;
-    background: linear-gradient(rgba(8, 4, 86, 1.0), rgba(1, 1, 1, 1.0));
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-}
 header{
     position: absolute;
     color: var(--textcolor);
-    font-weight: 550px;
-    font-family: 'Poppins', 'sans-serif';
-    font-size: 23px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
     top: 0;
     left: 0;
     width: 100%;
@@ -33,15 +24,35 @@ header{
     z-index: 99;
 }
 header nav a{
-    margin-left: 6rem;
-    font-weight: 650px;
+    margin-left: 2rem;
     color: rgb(211, 214, 228);
     text-decoration: none;
-    font-family: 'Poppins', 'sans-serif';
-    font-size: 27px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
     transition: color 0.4s ease;
 }
 header nav .active, 
 header nav a:hover{
-    color: rgb(28, 78, 239);
+    color: rgb(66, 110, 255);
+}
+.home{
+    min-height: 100vh;
+    background: linear-gradient(rgba(8, 4, 86, 1.0), rgba(1, 1, 1, 1.0));
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.home h1{
+    font-size: 8rem;
+    color: var(--textcolor);
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 8rem;
+    position: absolute;
+    z-index: 2;
 }
