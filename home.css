@@ -7,7 +7,7 @@
 }
 html{
     --bgcolor: linear-gradient(180deg, #191053, #010101);
-    --textcolor:rgb(211, 214, 228);
+    --textcolor:rgb(255, 255, 255);
     --border: solid 5px rgb(227, 26, 26);
 }
 header{
@@ -27,7 +27,7 @@ header{
 }
 header nav a{
     margin-left: 2rem;
-    color: rgb(211, 214, 228);
+    color: var(--textcolor);
     text-decoration: none;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -37,7 +37,7 @@ header nav a{
 }
 header nav .active , 
 header nav a:hover{
-    color: rgb(0, 60, 255);
+    color: rgb(32, 84, 255);
 }
 .home{
     height: 955px;
