@@ -33,11 +33,11 @@ header nav a{
     font-weight: 600;
     font-style: normal;
     font-size: 25px;
-    transition: color 0.4s ease;
+    transition: color 0.3s ease;
 }
 header nav .active , 
 header nav a:hover{
-    color: rgb(34, 86, 255);
+    color: rgb(0, 60, 255);
 }
 .home{
     height: 955px;
@@ -57,12 +57,18 @@ header nav a:hover{
     font-style: normal;
     margin-bottom: 8rem;
     position: absolute;
-    z-index: 2;
+    z-index: 3;
 }
 .home img{
     position: absolute;
     width: 100%;
     top: 0;
+}
+.cloud2{
+    z-index: 2;
+}
+.cloud1{
+    z-index: 4;
 }
 .mainclouds{
     height: 1700px;
