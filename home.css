@@ -1,3 +1,4 @@
+
 *{
     padding: 0px;
     margin: 0px;
@@ -7,9 +8,10 @@
 html{
     --bgcolor: linear-gradient(180deg, #191053, #010101);
     --textcolor:rgb(167, 179, 230);
+    --border: solid 5px rgb(227, 26, 26);
 }
 header{
-    position: absolute;
+    position: fixed;
     color: var(--textcolor);
     font-family: "Poppins", sans-serif;
     font-weight: 900;
@@ -33,13 +35,14 @@ header nav a{
     font-size: 25px;
     transition: color 0.4s ease;
 }
-header nav .active, 
+header nav .active , 
 header nav a:hover{
     color: rgb(66, 110, 255);
 }
 .home{
-    min-height: 100vh;
-    background: linear-gradient(rgba(8, 4, 86, 1.0), rgba(1, 1, 1, 1.0));
+    height: 955px;
+    background: rgb(8, 4, 86);
+    background: linear-gradient(180deg, rgba(8, 4, 86, 1.0) 0%, rgba(1, 1, 1, 1.0) 100%);
     position: relative;
     display: flex;
     justify-content: center;
@@ -55,4 +58,14 @@ header nav a:hover{
     margin-bottom: 8rem;
     position: absolute;
     z-index: 2;
+}
+.home img{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    /* bottom: 0; */
+}
+.mainclouds{
+    height: 300px;
+    background-color:#93A4FF;
 }
