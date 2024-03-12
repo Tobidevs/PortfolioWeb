@@ -64,13 +64,30 @@ header nav a:hover{
 .home img{
     position: absolute;
     width: 100%;
-    top: 0;
+    
 }
 .cloud2{
     z-index: 2;
 }
 .cloud1{
     z-index: 4;
+}
+.saturn{
+    height: 140px;
+    position: relative;
+    top: 170px;
+    left: 600px;
+}
+.planet1{
+    height: 180px;
+    position: relative;
+    top: 200px;
+    right: 580px;
+}
+.moon{
+    height: 330px;
+    position: relative;
+    top: 10px;
 }
 .mainclouds{
     height: 1700px;
