@@ -9,7 +9,7 @@ html{
     --bgcolor: linear-gradient(180deg, #191053, #010101);
     --textcolor:rgb(255, 255, 255);
     --border: solid 5px rgb(227, 26, 26);
-    scroll-snap-type: y mandatory;
+    /* scroll-snap-type: y mandatory; */
 }
 header{
     position: fixed;
