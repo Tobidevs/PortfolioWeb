@@ -69,6 +69,15 @@ header nav a:hover{
 .cloud1{
     z-index: 4;
 }
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+}
+.show{
+    opacity: 1;
+}
+
+
 .mainclouds{
     height: 1700px;
     background-color:#93A4FF;
