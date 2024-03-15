@@ -18,3 +18,4 @@ window.addEventListener("scroll", () => {
     // galaxyComet.style.marginTop = window.scrollY * .6 + "px"
     // alienblackhole.style.marginTop = window.scrollY * .7 + "px"
 })
+planet1.style.marginTop = window.scrollY * .17 + "px"
