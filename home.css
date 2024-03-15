@@ -8,7 +8,6 @@ html{
     --bgcolor: linear-gradient(180deg, #191053, #010101);
     --textcolor:rgb(255, 255, 255);
     --border: solid 5px rgb(227, 26, 26);
-    scroll-snap-type: y mandatory;
 }
 header{
     position: fixed;
@@ -48,7 +47,6 @@ header nav a:hover{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    scroll-snap-align: start;
 }
 .home h1{
     font-size: 8rem;
@@ -74,5 +72,4 @@ header nav a:hover{
 .mainclouds{
     height: 1700px;
     background-color:#93A4FF;
-    scroll-snap-align: start;
 }
