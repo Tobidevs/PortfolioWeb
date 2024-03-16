@@ -71,7 +71,7 @@ header nav a:hover{
 }
 .hidden{
     opacity: 0;
-    transition: all 0.9s;
+    transition: all 1s;
     transform: translateY(100%);
     filter: blur(5px);
 }
@@ -82,7 +82,7 @@ header nav a:hover{
 }
 
 .mainclouds{
-    height: 900px;
+    height: 800px;
     background-color:#93A4FF;
     display: flex;
     justify-content: center;
@@ -96,7 +96,10 @@ header nav a:hover{
     font-style: normal;
 }
 .mainpage img{
+    position: absolute;
     width: 100%;
+    top: 0;
+    transform: translateY(-1%);
 }
 
 .mainpage{
@@ -104,5 +107,4 @@ header nav a:hover{
     background-color: #191053;
     position: relative;
     overflow: hidden;
-
 }
