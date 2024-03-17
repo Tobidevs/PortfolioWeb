@@ -71,7 +71,7 @@ header nav a:hover{
 }
 .hidden{
     opacity: 0;
-    transition: all 1s;
+    transition: all 1s 0.3s;
     transform: translateY(100%);
     filter: blur(5px);
 }
@@ -89,7 +89,7 @@ header nav a:hover{
     align-items: center;
 }
 .mainclouds h1{
-    font-size: 5rem;
+    font-size: 6rem;
     color: rgb(56, 71, 243);
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -101,10 +101,14 @@ header nav a:hover{
     top: 0;
     transform: translateY(-1%);
 }
+.mainn{
+    height: 1880px;
+    background-image: url(./Rain\ \(1\).svg);
+    background-color: #191053;
 
+}
 .mainpage{
     height: 1800px;
-    background-color: #191053;
     position: relative;
     overflow: hidden;
 }
