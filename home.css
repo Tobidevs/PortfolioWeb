@@ -68,6 +68,7 @@ header nav a:hover{
 }
 .cloud1{
     z-index: 4;
+    color:rgb(32, 84, 255)
 }
 .hidden{
     opacity: 0;
