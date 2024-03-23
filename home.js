@@ -6,6 +6,7 @@ let planet1 = document.querySelector(".planet1")
 let galaxyComet = document.querySelector(".galaxycomet")
 let hiddenElements = document.querySelectorAll('.hidden')
 let rain = document.querySelector(".mainn")
+let header = document.querySelector(".header")
 
 
 // Parallax Effect Function
@@ -17,6 +18,7 @@ window.addEventListener("scroll", () => {
     planet1.style.marginTop = window.scrollY * .3 + "px"
     galaxyComet.style.marginTop = window.scrollY * .6 + "px"
     rain.style.marginTop = window.scrollY * .14 + "px";
+    header.style.marginTop = window.scrollY * .0 + "px"
 })
 
 // Scroll Animation Function

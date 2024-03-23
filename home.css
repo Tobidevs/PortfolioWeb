@@ -15,7 +15,7 @@ header{
     font-family: "Poppins", sans-serif;
     font-weight: 900;
     font-style: normal;
-    top: 0;
+    top: 10;
     left: 0;
     width: 100%;
     display: flex;
@@ -23,6 +23,7 @@ header{
     align-items: center;
     padding: 2.5rem 8rem;
     z-index: 99;
+
 }
 header nav a{
     margin-left: 2rem;
