@@ -1,9 +1,6 @@
 let mainTitle = document.querySelector(".home h1");
 let stars = document.querySelector(".stars")
 let moon = document.querySelector(".moon")
-let saturn = document.querySelector(".saturn")
-let planet1 = document.querySelector(".planet1")
-let galaxyComet = document.querySelector(".galaxycomet")
 let hiddenElements = document.querySelectorAll('.hidden')
 let rain = document.querySelector(".mainn")
 let header = document.querySelector(".header")
@@ -14,9 +11,6 @@ window.addEventListener("scroll", () => {
     mainTitle.style.marginTop = window.scrollY * 1.3 + "px"
     stars.style.marginTop = window.scrollY * .8 + "px";
     moon.style.marginTop = window.scrollY * .7 + "px"
-    saturn.style.marginTop = window.scrollY * .5 + "px"
-    planet1.style.marginTop = window.scrollY * .3 + "px"
-    galaxyComet.style.marginTop = window.scrollY * .6 + "px"
     rain.style.marginTop = window.scrollY * .14 + "px";
     header.style.marginTop = window.scrollY * .0 + "px"
 })
