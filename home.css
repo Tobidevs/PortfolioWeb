@@ -10,7 +10,7 @@ html{
     --border: solid 5px rgb(227, 26, 26);
 }
 header{
-    position: fixed;
+    position: absolute;
     color: var(--textcolor);
     font-family: "Poppins", sans-serif;
     font-weight: 900;
@@ -22,7 +22,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 2.5rem 8rem;
-    z-index: 99;
+    z-index: 1009;
 
 }
 header nav a{
