@@ -28,3 +28,14 @@ const observer = new IntersectionObserver((entries) => {
     })
 })
 hiddenElements.forEach((el) => observer.observe(el))
+
+// Header bar Appear Animation
+const scrollThreshold = 1900; 
+function handleScroll() {
+    if (window.scrollY > scrollThreshold) {
+        header.style.opacity = '1'; // Show the header
+    } else {
+        header.style.opacity = '0'; // Hide the header
+    }
+}
+window.addEventListener('scroll', handleScroll);
