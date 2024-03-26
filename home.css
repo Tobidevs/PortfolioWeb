@@ -73,7 +73,7 @@ header nav a:hover{
 }
 .hidden{
     opacity: 0;
-    transition: all 1s 0.3s;
+    transition: all 1s;
     transform: translateY(100%);
     filter: blur(5px);
 }
@@ -84,7 +84,7 @@ header nav a:hover{
 }
 
 .mainclouds{
-    height: 800px;
+    height: 700px;
     background-color:#93A4FF;
     display: flex;
     justify-content: center;
@@ -103,7 +103,7 @@ header nav a:hover{
     top: 0;
     transform: translateY(-1%);
 }
-.mainn{
+.bottomclouds{
     height: 1880px;
     background-image: url(./rainopt.png);
     background-color: #191053;

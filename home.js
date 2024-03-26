@@ -2,7 +2,7 @@ let mainTitle = document.querySelector(".home h1");
 let stars = document.querySelector(".stars")
 let moon = document.querySelector(".moon")
 let hiddenElements = document.querySelectorAll('.hidden')
-let rain = document.querySelector(".mainn")
+let rain = document.querySelector(".bottomclouds")
 let header = document.querySelector(".header")
 
 
@@ -30,7 +30,7 @@ const observer = new IntersectionObserver((entries) => {
 hiddenElements.forEach((el) => observer.observe(el))
 
 // Header bar Appear Animation
-const scrollThreshold = 1900; 
+const scrollThreshold = 1600; 
 function handleScroll() {
     if (window.scrollY > scrollThreshold) {
         header.style.opacity = '1'; // Show the header
