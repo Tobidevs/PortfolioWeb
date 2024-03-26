@@ -2,7 +2,7 @@ let mainTitle = document.querySelector(".home h1");
 let stars = document.querySelector(".stars")
 let moon = document.querySelector(".moon")
 let hiddenElements = document.querySelectorAll('.hidden')
-let rain = document.querySelector(".bottomclouds")
+let rain = document.querySelector(".rainnn")
 let header = document.querySelector(".header")
 
 

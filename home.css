@@ -97,20 +97,34 @@ header nav a:hover{
     font-weight: 600;
     font-style: normal;
 }
-.mainpage img{
+.bottomclouds img{
     position: absolute;
     width: 100%;
     top: 0;
     transform: translateY(-1%);
 }
-.bottomclouds{
+/* .{
     height: 1880px;
     background-image: url(./rainopt.png);
     background-color: #191053;
-
-}
+    z-index: -100;
+} */
 .mainpage{
-    height: 1800px;
     position: relative;
+}
+.rainnn{
+    position: absolute;
     overflow: hidden;
+    height: 1880px;
+    width: 100%;
+    background-color: #191053;
+    z-index: -100;
+}
+.aboutmebox{
+    width: 100%;
+    height: 900px;
+    margin-top: 600px;
+    border: var(--border);
+    position: absolute;
+
 }
