@@ -2,8 +2,7 @@ let mainTitle = document.querySelector(".home h1");
 let stars = document.querySelector(".stars")
 let moon = document.querySelector(".moon")
 let hiddenElements = document.querySelectorAll('.hidden')
-let rain = document.querySelector(".rainnn")
-let header = document.querySelector(".header")
+let rain = document.querySelector(".rain")
 const lazyloadImages = document.querySelectorAll(".lazyload")
 
 //Lazy Loader Function
@@ -30,7 +29,6 @@ window.addEventListener("scroll", () => {
     stars.style.marginTop = window.scrollY * .8 + "px";
     moon.style.marginTop = window.scrollY * .7 + "px"
     rain.style.marginTop = window.scrollY * .14 + "px";
-    header.style.marginTop = window.scrollY * .0 + "px"
 })
 
 // Scroll Animation Function
