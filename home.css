@@ -165,6 +165,17 @@ header nav a:hover{
 }
 .elevatorpic{
     position: absolute;
-    top: 40;
-
+    bottom: 380px;
+    left: 80px;
 }
+.stardewpic{
+    position: absolute;
+    bottom: 300px;
+    left: 240px;
+}
+.camerapic{
+    position: absolute;
+    bottom: 380px;
+    left: 410px;
+}
+.bruce
