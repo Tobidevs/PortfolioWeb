@@ -140,7 +140,7 @@ header nav a:hover{
     /* align-items: center; */
     flex-direction: column;
 }
-.aboutmeheader{
+.aboutme h2{
     font-family: "Micro 5", sans-serif;
     font-weight: 400;
     font-style: normal;

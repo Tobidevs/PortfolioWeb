@@ -4,6 +4,24 @@ let moon = document.querySelector(".moon")
 let hiddenElements = document.querySelectorAll('.hidden')
 let rain = document.querySelector(".rainnn")
 let header = document.querySelector(".header")
+const lazyloadImages = document.querySelectorAll(".lazyload")
+
+//Lazy Loader Function
+// document.addEventListener("DOMContentLoaded", function() {
+//     const observer = new IntersectionObserver(entries => {
+//         entries.forEach(entry => {
+//             if (entry.isIntersecting) {
+//                 const img = entry.target;
+//                 img.src = img.dataset.src;
+//                 observer.unobserve(img);
+//             }
+//         });
+//     });
+
+//     lazyloadImages.forEach(image => {
+//         observer.observe(image);
+//     });
+// });
 
 
 // Parallax Effect Function
@@ -39,3 +57,4 @@ function handleScroll() {
     }
 }
 window.addEventListener('scroll', handleScroll);
+
