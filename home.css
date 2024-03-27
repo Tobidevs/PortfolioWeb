@@ -134,7 +134,11 @@ header nav a:hover{
 .aboutme{
     height: 700px;
     width: 55%;
-    /* border: var(--border) */
+    /* border: var(--border); */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-direction: column;
 }
 .aboutmeheader{
     font-family: "Micro 5", sans-serif;
@@ -154,7 +158,7 @@ header nav a:hover{
 .collagebox{
     height: 700px;
     width: 45%;
-    border: var(--border);
+    /* border: var(--border); */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -173,9 +177,23 @@ header nav a:hover{
     bottom: 300px;
     left: 240px;
 }
-.camerapic{
+.grouppic{
     position: absolute;
     bottom: 380px;
     left: 410px;
 }
-.bruce
+.bruce{
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+}
+.camerapic{
+    position: absolute;
+    bottom: 10px;
+    left: 240px;
+}
+.untpic{
+    position: absolute;
+    bottom: 100px;
+    left: 410px;
+}
