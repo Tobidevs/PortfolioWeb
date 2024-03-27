@@ -129,10 +129,11 @@ header nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 90px;
 }
 .aboutme{
     height: 700px;
-    width: 800px;
+    width: 55%;
     /* border: var(--border) */
 }
 .aboutmeheader{
@@ -140,8 +141,7 @@ header nav a:hover{
     font-weight: 400;
     font-style: normal;
     font-size: 100px;
-    font-
-    padding: 55px;
+    padding: 50px;
     color: rgb(56, 71, 243);
 }
 .aboutme p{
@@ -153,7 +153,6 @@ header nav a:hover{
 }
 .collagebox{
     height: 700px;
-    width: 800px;
-    border: var(--border);
-    
+    width: 45%;
+    /* border: var(--border); */
 }
