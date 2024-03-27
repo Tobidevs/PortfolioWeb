@@ -154,5 +154,17 @@ header nav a:hover{
 .collagebox{
     height: 700px;
     width: 45%;
-    /* border: var(--border); */
+    border: var(--border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.collagebox img{
+    width: 190px;
+}
+.elevatorpic{
+    position: absolute;
+    top: 40;
+
 }
